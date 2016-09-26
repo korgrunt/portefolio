@@ -1,0 +1,8 @@
+.contact-error{
+  color:red;
+  display:none;
+}
+.contact-valid{
+  color:green;
+  display:none;
+}

@@ -1,0 +1,26 @@
+html{
+  color:black;
+}
+.my-header{
+  background-color:black;
+}
+.title-header{
+  font-family: 'Pattaya', sans-serif;
+  font-size: 300%;
+  margin-left:2%;
+}
+
+.btn-header{
+  font-family: 'Chivo', sans-serif;
+}
+.logo-header{
+  margin-left:5%;
+}
+#minimenu{
+  background-color:black;
+  display:none;
+  float:left;
+  margin-top:10%;
+  z-index: 100;
+  position: fixed;
+}

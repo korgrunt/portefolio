@@ -1,0 +1,120 @@
+.services-title{
+    font-family: 'Pattaya', sans-serif;
+}
+.text-description{
+  font-size:125%;
+}
+.services-text{
+  font-size: 175%;
+}
+h1{
+  font-family: 'Chivo', sans-serif;
+}
+.logo-place{
+  background-color: white;
+}
+.logo-log{
+  display:inline-block;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, .7);
+  transform-style: inherit;
+}
+
+
+
+.slide:before {
+  content: "./app/pictures/background1.jpg";
+opacity:0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+}
+
+#title-paralax {
+  background-image: url("./app/pictures/work01.jpg");
+   background-attachment: fixed;
+}
+
+#slide1:before {
+  background-image: url("./app/pictures/work03.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide1 {
+  background-image: url("./app/pictures/workspace.jpg");
+  background-attachment: fixed;
+}
+
+#slide2:before {
+  background-image: url("./app/pictures/work04.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#slide2 {
+  background-image: url("./app/pictures/work05.jpg");
+  background-attachment: fixed;
+}
+
+#slide3:before {
+  background-image: url("./app/pictures/work06.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#slide3 {
+  background-image: url("./app/pictures/work07.jpg");
+  background-attachment: fixed;
+}
+
+#slide4 {
+  background: #222;
+}
+.title-home{
+  font-family: 'Bangers','Bungee Shade', cursive;
+  font-size: 80;
+}
+.profile-text {
+  font-size: 175%;
+  color:white;
+  text-shadow: 1px 1px black;
+}
+.call-icon{
+  color:white;
+}

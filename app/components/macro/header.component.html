@@ -1,0 +1,45 @@
+
+  <nav class="my-header" role="navigation">
+    <div class="nav-wrapper container">
+
+      <a id="logo-container" class="brand-logo title-header" routerLink="/home" routerLinkActive="active">
+      Aouaichia Naïm</a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a class="btn-header" routerLink="/profile" routerLinkActive="active">Profile</a></li>
+
+        <li>        <a class="btn-header" routerLink="/realisation"routerLinkActive="active">
+                Realistion</a></li>
+<!--
+        <li>        <a class="btn-header" routerLink="/tuto" routerLinkActive="active">
+                Tuto</a></li>
+
+        <li>        <a class="btn-header" routerLink="/src" routerLinkActive="active">
+                Src</a></li>
+-->
+        <li>        <a class="btn-header" routerLink="/contact" routerLinkActive="active">
+                Contact</a></li>
+      </ul>
+
+
+
+
+      <a  (click)="menuClicked()" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+      <div id="minimenu">
+        <a class="btn-header" routerLink="/profile" routerLinkActive="active">Profile</a><br>
+
+        <a class="btn-header" routerLink="/realisation"routerLinkActive="active">Realistion</a><br>
+    <!--
+            <li>        <a class="btn-header" routerLink="/tuto" routerLinkActive="active">
+                    Tuto</a></li>
+
+            <li>        <a class="btn-header" routerLink="/src" routerLinkActive="active">
+                    Src</a></li>
+    -->
+        <a class="btn-header" routerLink="/contact" routerLinkActive="active">Contact</a>
+
+      </div>
+
+    </div>
+  </nav>

@@ -1,0 +1,54 @@
+<div class="container">
+
+  <!-- Page Content goes here -->
+  <div class="row">
+    <div class="valign-wrapper">
+      <h3>Un projet, un besoin, ou un projet innovant?</h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="valign-wrapper">
+      <h4>Contactez moi, je vous recontacterez au plus vite!</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="valign-wrapper col-s6 offset-s6">
+      <i class="medium material-icons">account_circle</i>
+      <input [(ngModel)]="emailPack.mail" placeholder="type here your mail adress" required>
+    </div>
+    <p id="email-input" class="contact-error">Veuillez entrer une adresse email correct afin que je vous recontact.</p>
+  </div>
+
+  <div class="row">
+    <div class="valign-wrapper col-s6 offset-s6">
+      <i class="medium material-icons">email</i>
+      <input [(ngModel)]="emailPack.sujet" placeholder="type here your sujet" required>
+    </div>
+    <p id="sujet-input" class="contact-error">Veuillez entrer un sujet plus de clarté, merci.</p>
+  </div>
+
+  <div class="row">
+    <div class="valign-wrapper col-s6 offset-s6">
+      <i class="medium material-icons">comment</i>
+      <input [(ngModel)]="emailPack.msg" placeholder="type here your message" required>
+    </div>
+    <p id="message-input" class="contact-error">Veuillez précisé votre demande.</p>
+  </div>
+
+
+  <div class="row">
+    <div class="valign-wrapper col-s6 offset-s6">
+      <button class="waves-effect waves-light btn" (click)="send(emailPack.mail, emailPack.sujet, emailPack.msg);"><i class="material-icons right">done</i>send</button>
+    </div>
+    <p id="email-send" class="contact-valid">
+      Votre message a bien était envoyer en même temps que vos coordonées, je vous recontact au plus vite.
+      <br>
+      <a class="title-header" routerLink="/home" routerLinkActive="active">
+        Cliquez sur ce lien pour retourner a la page d'acceuil.
+      </a>
+    </p>
+  </div>
+
+</div>
