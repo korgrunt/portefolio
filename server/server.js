@@ -26,11 +26,11 @@ app.use(express.static(path.join(__dirname, '../ngPolyfills')));
 
 app.use(express.static(path.join(__dirname, '../node_modules')));
 app.use(express.static(path.join(__dirname, '../typings')));
-app.use(express.static(path.join(__dirname, '../../portefolioBuildTest')));
+app.use(express.static(path.join(__dirname, '../../portefolio')));
 
 app.engine('html', swig.renderFile);
 
-app.set('views', __dirname+'/views');
+app.set('views', __dirname+'../../portefolio');
 app.set('view engine', 'html');
 
 
