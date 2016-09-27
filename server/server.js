@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 //app.use(logger({path: "/path/to/logfile.txt"}));
 // app.use(express.bodyParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, '../.')));
+app.use(express.static(path.join(__dirname, '../../portefolio')));
 app.use(express.static(path.join(__dirname, '../app')));
 
 app.use(express.static(path.join(__dirname, '../ngPolyfills')));
@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, '../../portefolio')));
 
 app.engine('html', swig.renderFile);
 
-app.set('views', __dirname+'../../portefolio');
+app.set('views', __dirname+'/views');
 app.set('view engine', 'html');
 
 

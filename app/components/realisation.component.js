@@ -22,23 +22,23 @@ charactere design perso
 simulation 3d archi
 */
 var HEROES = [
-    { id: '01', name: 'Film d\'animation perso.', description: 'Animation de poursuite en mobiliette via des calque dessin manuel scané, et animé dans un espace 3d.', imgPath: './app/pictures/work01.jpg' },
-    { id: '02', name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work02.jpg' },
-    { id: '03', name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work03.jpg' },
-    { id: '04', name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work05.jpg' },
-    { id: '05', name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work06.jpg' },
-    { id: '06', name: 'Charactere design', description: 'Une scéne de quelque seconde présentant un catcheur méxicain.', imgPath: './app/pictures/work04.jpg' },
-    { id: '07', name: 'Projet du dimanche', description: 'Modélisation, texturing et lighting d\'une voiture vintage', imgPath: './app/pictures/realisation3d01.jpg' },
-    { id: '08', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d05.jpg' },
-    { id: '09', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d06.jpg' },
-    { id: '10', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d07.jpg' },
-    { id: '11', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d08.jpg' },
-    { id: '12', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d09.jpg' },
-    { id: '13', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d10.jpg' },
-    { id: '14', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d11.jpg' },
-    { id: '15', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d12.jpg' },
-    { id: '16', name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d13.jpg' },
-    { id: '17', name: 'Site web', description: 'Site web déstiné a présenté mes compétences et savoir faire.', imgPath: './app/pictures/realisationweb01.jpg' }
+    { id: 1, name: 'Film d\'animation perso.', description: 'Animation de poursuite en mobiliette via des calque dessin manuel scané, et animé dans un espace 3d.', imgPath: './app/pictures/work01.jpg' },
+    { id: 2, name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work02.jpg' },
+    { id: 3, name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work03.jpg' },
+    { id: 4, name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work05.jpg' },
+    { id: 5, name: 'Film d\'animation en équipe.', description: 'Cours métrage science-fiction ou des bébé en 3d sont animé lors de leurs fabrication à la  chaine dans une uzine futuriste.', imgPath: './app/pictures/work06.jpg' },
+    { id: 6, name: 'Charactere design', description: 'Une scéne de quelque seconde présentant un catcheur méxicain.', imgPath: './app/pictures/work04.jpg' },
+    { id: 7, name: 'Projet du dimanche', description: 'Modélisation, texturing et lighting d\'une voiture vintage', imgPath: './app/pictures/realisation3d01.jpg' },
+    { id: 8, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d05.jpg' },
+    { id: 9, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d06.jpg' },
+    { id: 10, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d07.jpg' },
+    { id: 11, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d08.jpg' },
+    { id: 12, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d09.jpg' },
+    { id: 13, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d10.jpg' },
+    { id: 14, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d11.jpg' },
+    { id: 15, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d12.jpg' },
+    { id: 16, name: 'Simulation désign d\'espace', description: 'Visuels pour la projection d\'un projet d\'architecture sur la zone de liége', imgPath: './app/pictures/realisation3d13.jpg' },
+    { id: 17, name: 'Site web', description: 'Site web déstiné a présenté mes compétences et savoir faire.', imgPath: './app/pictures/realisationweb01.jpg' }
 ];
 var RealisationComponent = (function () {
     function RealisationComponent() {
