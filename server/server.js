@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, '../typings')));
 
 app.engine('html', swig.renderFile);
 
-app.set('views', __dirname+'./views');
+app.set('views', __dirname+'/views');
 app.set('view engine', 'html');
 
 
